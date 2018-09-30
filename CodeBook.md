@@ -54,9 +54,11 @@ in the study, and the six activities each participant performed during the study
 
 * activity: The activitiy codes are given in the file activity_labels.txt.
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+| id | description |
+| ---- | ----------------- |
+| 1 | WALKING |
+| 2 | WALKING_UPSTAIRS |
+| 3 | WALKING_DOWNSTAIRS |
+| 4 | SITTING |
+| 5 | STANDING |
+| 6 | LAYING |
