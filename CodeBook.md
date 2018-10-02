@@ -1,14 +1,14 @@
 This code book describes the files and variables used to produce the tidy data set (tidy.txt). The file paths assume that the 
-working directory is the directory that contains the script "course_project.R".
+working directory is the directory that contains the script "run_analysis.R".
 
 ## Files 
 
-course_project.R: This is an R script that downloads, merges, and aggregates the test and training Samsung data sets. It is the only file that exists at the beginning of the analysis. 
+run_analysis.R: This is an R script that downloads, merges, and aggregates the test and training Samsung data sets. It is the only file that exists at the beginning of the analysis. 
 
 * Dataset.zip: This the complete data set the analysis is performed on. It is downloaded by the script if it doesn't 
 already exist. It contains the UCI HAR Dataset directory, which contains all the files listed below.
 
-* tidy.txt: This is the tidy output file written by the course_project.R script. 
+* tidy.txt: This is the tidy output file written by the run_analysis.R script. 
 
 * UCI HAR Dataset/features.txt: This is the list of the 561 features contained in the data set, one feature per line. These are 
 read into the vector feature.labels and used to name the columns in the data set from left to right.

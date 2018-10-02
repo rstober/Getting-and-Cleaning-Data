@@ -2,11 +2,11 @@
 
 This is the repository for the Getting and Cleaning Data course project. The repository contains the following files:
 
-* README.rmd: This readme file.
-* CodeBook.rmd: The codebook that lists the files and variables used in the analysis. 
-* course_project.R: This is an R script that downloads, merges, and aggregates the test and training data sets. 
+* README.md: This readme file.
+* CodeBook.md: The codebook that lists the files and variables used in the analysis. 
+* run_analysis.R: This is an R script that downloads, merges, and aggregates the test and training data sets. 
 
-The course_project.R script performs the following operations:
+The run_analysis.R script performs the following operations:
 
 ### 1. Downloads and unzips the data set
 
@@ -43,4 +43,4 @@ The code uses rbind to merge the data sets.
 ### 6. Writes the tidy.txt file 
 
 * Writes the file using the tidy.df data frame via the write.file function.
-* This is a comma delimited text file (CSV).
+* This is a space delimited text file.
